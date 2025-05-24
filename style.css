@@ -7,10 +7,13 @@ body {
     padding: 0;
     background-color: #f4f4f9;
     color: #333;
+    transition: .5s
 }
 
 header {
-    background: #4CAF50;
+    background: #11998e;
+    background-image: linear-gradient(to right, #38ef7d, #11998e);
+
     color: white;
     padding-top: 20px;
     text-align: center;
@@ -36,7 +39,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 15px;   
 }
 
 nav ul li a {
@@ -55,6 +58,16 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+main ul {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+main ul li:hover {
+    box-shadow: -10px -10px 5px 0 #fff,
+        10px 10px 5px 0 #bbb;
 }
 
 footer {
