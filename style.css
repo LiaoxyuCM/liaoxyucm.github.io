@@ -46,7 +46,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
